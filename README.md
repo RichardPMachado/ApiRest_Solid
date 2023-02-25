@@ -30,7 +30,7 @@ Fundamentos de Solid em uma Api rest
     ]
   }
 
-5 - Adicionar o uuid v4
+5 - Adicionar o uuid v4 ( Uma biblioteca para gerar id universal)
   Para não deixar a responsabilidade para o DB fazer um auto increment, pois pode haver conflito na troca de banco, ex:
    - de mysql para postgres;
   Usamos esse gerador de id universal para Node assim mantendo o controle do projeto em nossas mãos.

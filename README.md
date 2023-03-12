@@ -41,3 +41,10 @@ Fundamentos de Solid em uma Api rest
   "scripts": {
     "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
   },
+
+7 - Adicionar o nodemailer
+Serviço de envio de email para um servidor de teste enquanto a aplicação está em desenvolvimento
+  yarn add nodemailer
+
+instalar as tipagens
+  yarn add @types/nodemailer -D
